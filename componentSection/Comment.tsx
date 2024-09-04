@@ -11,7 +11,7 @@ import {
   query,
   getDocs
 } from "firebase/firestore";
-import { db } from "../firebaseConfig";
+import { db } from "../ConfigFirebase";
 import "./Comment.css";
 
 interface Comment {

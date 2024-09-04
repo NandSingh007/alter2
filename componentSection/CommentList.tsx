@@ -10,7 +10,7 @@ import {
   arrayUnion,
   arrayRemove
 } from "firebase/firestore";
-import { db } from "../firebaseConfig";
+import { db } from "../ConfigFirebase";
 import { useAuth } from "../Auth/AuthContext";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
